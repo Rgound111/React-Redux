@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.container, h1, h3 {
+  margin: 15px 0 ;
+  color: darkgray;
+}
+
+*{
+  background-color: black;
+  color: white;
+}
+
+a{
+  background-color: white;
+  color: black;
+  margin: 0px 40%;
+  padding: 0px;
+  font-size: 2rem;
+  height: 7px;
+  width: 10px;
+  text-decoration: none;
+}
+
+.quantity{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+
+
+input{
+  font-size: 2rem;
+  width: 2.5rem;
+}
